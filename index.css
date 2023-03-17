@@ -156,3 +156,32 @@ input:hover{
     font-size: 20px;
     color: azure;
 }
+
+
+
+
+@media screen and (max-width:600px) {
+    .body{
+        align-items: flex-start;
+        background-color: white;
+    }
+
+    .container{
+        box-shadow: none;
+    }
+
+    .box-1{
+        flex-direction: column;
+        border-radius: 0 0 1rem 1rem;
+        width: 100%;
+    }
+
+    .result .observation{
+        width: 250px;
+
+    }
+
+    .box-2{
+        width: 100%;
+    }
+}
